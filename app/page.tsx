@@ -137,8 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            I am a recent Computer Science graduate specializing in AI/ML, recognized as a winner of the Google Solution Challenge 2024 for creating a solution that merges technology with user-centric design. This design-focused engineering philosophy was honed while founding and scaling an agency where I delivered impactful tech solutions to over 20 brands. I am now seeking opportunities to leverage my practical experience and innovative mindset to build the next generation of intelligent applications
           </p>
         </div>
       </motion.section>
@@ -222,7 +221,7 @@ export default function Personal() {
         </div>
       </motion.section>
 
-      <motion.section
+      {/* <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -256,7 +255,7 @@ export default function Personal() {
             ))}
           </AnimatedBackground>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       <motion.section
         variants={VARIANTS_SECTION}

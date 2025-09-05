@@ -31,21 +31,28 @@ type SocialLink = {
 export const PROJECTS: Project[] = [
   {
     name: 'SpoonShare | Google Recognized Project',
-    description: 'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+    description: "Connecting users to share free food, donate, and access local ngo, supporting the UN's Zero Hunger goal.",
+    link: 'https://github.com/itsrehan/SpoonShare',
     video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
-    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Motion-Primitives'],
+    techStack: ['Flutter', 'Firebase', 'Figma', 'Google Maps API', 'Google Cloud'],
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'AI Travel Planner',
+    description: 'Dynamic AI model delivering optimized, personalized, and context-aware itineraries.',
     link: 'https://motion-primitives.com/',
     video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
     techStack: ['React', 'TypeScript', 'Motion-Primitives', 'Framer Motion'],
   },
-  
+  {
+    name: 'Real-Estate AI Model',
+    description: 'A Comprehensive Real Estate Knowledge System',
+    link: 'https://motion-primitives.com/',
+    video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project2',
+    techStack: ['React', 'TypeScript', 'Motion-Primitives', 'Framer Motion'],
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
@@ -56,22 +63,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     end: 'Present',
     link: 'https://ibelick.com',
     id: 'work1',
-  },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
@@ -107,20 +98,16 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/itsrehan',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://x.com/0xrehann',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/mdrehan15/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'mdrehan1507@gmail.com'
